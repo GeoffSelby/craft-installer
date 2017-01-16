@@ -1,0 +1,26 @@
+{
+    "name": "geoffselby/craft-installer",
+    "description": "Craft CMS installer.",
+    "keywords": ["craft","craftcms","craft installer"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Geoff Selby",
+            "email": "geoff.w.selby@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^3.2",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Craft\\Installer\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "bin": [
+        "craft"
+    ]
+}
