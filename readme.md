@@ -2,7 +2,6 @@
 
 Install Craft CMS from the command line.
 
-
 ## Installation
 
 ```bash
@@ -24,7 +23,7 @@ cd ~/Sites
 craft new awesome-new-craft-site
 ```
 
-This will download the latest version of Craft and install it in the directory you provided.
+After entering your database credentials, the installer will download the latest version of Craft and install it in the directory you provided.
 Sit back and relax because it may take a minute or two.
 
 ## Acknowledgements

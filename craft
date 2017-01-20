@@ -8,10 +8,7 @@ if (file_exists(__DIR__.'/../../autoload.php')) {
     require __DIR__.'/vendor/autoload.php';
 }
 
-use Craft\Installer\NewCommand;
-use Symfony\Component\Console\Application;
-
-$application = new Application('Craft CMS Installer', '1.0');
-$application->add(new NewCommand);
+$application = new Symfony\Component\Console\Application('Craft CMS Installer', '1.1.0');
+$application->add(new Craft\Installer\NewCommand);
 
 $application->run();
